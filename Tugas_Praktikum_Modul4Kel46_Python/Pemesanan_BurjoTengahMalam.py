@@ -20,7 +20,7 @@ resep = [
     [0, 0, 0, 1],   # Kopi Susu
 ]
 
-nama_pelanggan = ["Budi", "Sari", "Joko", "Dewi"]
+nama_pelanggan = ["Seto", "Lukman", "Rafly", "Alden"]
 
 
 # ===================== FUNCTION =====================
