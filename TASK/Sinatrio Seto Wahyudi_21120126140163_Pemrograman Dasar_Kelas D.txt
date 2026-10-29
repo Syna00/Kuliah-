@@ -1,0 +1,86 @@
+import java.util.*;
+
+public class First_project {
+    public static void main (String[] args){
+        System.out.println("Teknik Komputer");
+        System.out.println("Fakultas Teknik");
+        System.out.println("Universitas Diponegoro");
+        // kenapa printnya menggunakan ln di ujungnya? supaya code bisa mengeluarkan output di bawah code sebelumnya
+        //keyword : perintah ----> harus menggunakan struktur yang benar, case sensitive
+
+        // VARIABEL : Tempat menyimpan sebuah nilai (Data)
+        // VARIABEL memiliki tipe / jenis
+
+        // 1. variabel numerik (angka) : Bilangan bulat (int, double, byte) atau pecahan (float)
+        // contoh nim : 123456789 ----> Tipe data nama variabel
+        int nim = 1234567; // variabel nim bertipe ini dengan nilai 1234567
+        System.out.println("NIM = "+nim); // menampilkan nim 
+
+          // 2. variabel non numerik : char (1 karakter), String (Tulisan panjang)
+        String nama_mahasiswa = "Sinatrio Seto Wahyudi";
+        System.out.println("Nama Mahasiswa = "+nama_mahasiswa);
+          // petunjuk membuat variabel:
+          // 1. Tidak diawali numerik
+          // 2. Huruf benar kecil dibedakan 
+          // 3. Sesuai konteks
+          // 4. Tidak mengandung karakter khusus !@#$%^&*()
+          double ipk = 3.9;
+          System.out.println("IPK = "+ipk);
+          // byte jangkauan -128 sampai dengan 127
+          byte x = 127;
+
+          //OPERATOR : Aritmatika, Logic, Pembanding
+          // Operator Aritmatika : +, -, /, *, % 
+          int a, b, c, d;
+          a = 10;
+          b = 3;
+          // Sisa hasil bagi a dan b 
+          c = a % b;
+          System.out.println("Sisa hasil bagi = " +c);
+
+          // Membuat variabel :
+          int a1, b1, c1, d1;
+          a1 = 10;
+          b1 = 20;
+          c1 = 15;
+          //Buat program untuk menghitung diskriminan
+          // Rumus d = b*b - 4*a*c;
+          d1 = b1 * b1 - 4*a1*c1;
+          System.out.println("Diskriminannya adalah = " +d1); 
+
+          // Program untuk membuat keliling persegi panjang 
+          // Masukkan variabel
+          int e, f, g;
+          e = 10;
+          f = 20;
+          // Rumus keliling persegi panjang :
+          g = (e + f)*2;
+          System.out.println("Hasil dari keliling persegi panjang = "+g);
+          // OPERATOR PEMBANDING : >, <, <=, >=, !=, ==, =
+          System.out.println("Apakah 10 > 5? "+(10 > 5));
+          System.out.println("Apakah 10 < 5? "+(10 < 5));
+          // System.out.println("Apakah 10 = 5? "+(10 = 5)); (Salah ini, karna "=" buat variabel)
+          System.out.println("Apakah 10 = 5? "+(10 == 5));
+
+
+          // Sebelum swapping :
+          int xx = 10;
+          int yy = 20;
+          int zz;
+          System.out.println("Sebelum diswap");
+          System.out.println("xx = " +xx);
+          System.out.println("yy = " +yy);
+
+          // Setelah Swapping x ke y
+          zz = xx ; // memindahkan x ke dalam z
+          xx = yy ;
+          yy = zz ;
+          System.out.println("Setelah diswap");
+          System.out.println("xx = " +xx);
+          System.out.println("yy = " +yy);
+
+
+
+
+    }
+}

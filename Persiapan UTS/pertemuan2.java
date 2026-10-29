@@ -1,0 +1,98 @@
+import java.util.*;
+
+public class pertemuan2 {
+    public static void main(String[] args) {
+      /*
+      Nama  : Sinatrio Seto Wahyudi
+      NIM   : 21120126140163
+      Kelas : D
+      
+      */
+
+
+      // Membuat Komentar
+      // Tipe data dan variabel ---> Menyimoan nilai data memiliki jenis/Tipe
+      //boolean ; Logika (True atau False)
+      boolean kondisi = true;
+      System.out.println("kondisi : "+kondisi);
+
+      // 1. Operator aritmatika : +, -, *, /, %
+      // Operator % (Modula) : Sisa hasil bagi
+      int a, b, c;
+      c = 13%3;
+      System.out.println("Sisa = "+c);
+      System.out.println("\n");
+      //Operator penugasan (assignment) ; =, +=, -=, *=, /=, %=, 
+      // a=b ---> Nilai b diberikan ke a
+      // Contoh :
+      a = 100;
+      b = 200;
+      System.out.println("Sebelum : ");
+      System.out.println("Nilai a = "+a);
+      System.out.println("Nilai b = "+b);
+      a=b;
+      System.out.println("Nilai a dan b setelah a=b");
+      System.out.println("Nilai a = "+a);
+      System.out.println("Nilai b = "+b);
+
+      // Operator += adalah a += 5 ---> a = a+5
+      a+= 5;
+      System.out.println("a += 5 adalah "+a);
+      // a*= 4 : a = a*4
+      a*=4;
+      System.out.println("a *= 4 adalah "+a);
+      a/=10;
+      System.out.println("a /= 10 adalah "+a);
+      a%= 7; // a = a%7
+      System.out.println("a *= 7 adalah "+a);
+
+      // 3. Operator Pembanding : ==, !=, <, >, <=, >=
+      System.out.println("apakah a = b : "+(a==b)); //True atau False
+      System.out.println("apakah a > b : "+(a>b)); //True atau False
+      System.out.println("apakah a < b : "+(a<b)); //True atau False
+      c=5;
+      System.out.println("apakah a <= b : "+(a<=b)); //True atau False
+
+      /* 4. Operator logika && : And 
+      && : And ---> Bernilai true jika 2 statement true, untuk yang lain false
+      || : Or ---> Bernilai true jika salah satu statement bernilai true 
+      ! : Not ---> 
+
+      0 = False
+      1 = True 
+
+      0 and 0 : 0
+      0 and 1 : 0
+      1 and 0 : 0
+      1 and 1 : 1
+
+      0 or 0 : 0
+      0 or 1 : 1
+      1 or 0 : 1
+      1 or 1 : 1
+
+      not : dibalik (True jadi False, False jadi True)
+      */ 
+      kondisi = !(kondisi);
+      System.out.println("Kondisi ! = "+kondisi);
+
+      boolean kondisi1 = (4>5); //False
+      boolean kondisi2 = (10>5); //True
+      kondisi = kondisi1 && kondisi2;
+      System.out.println("Kondisi = "+kondisi);
+      kondisi = kondisi1 || kondisi2;
+      System.out.println("Kondisi hasil or = "+kondisi);
+
+      /*
+      
+      Operator Aritmatika --> order : Sesuai Prioritas
+      1. ()
+      2. *, /, %
+      3. +, -
+      4. <, >, <=, >=
+      5. ==, !=
+      6. &&, ||, =
+
+      */ 
+    }
+}
